@@ -4,12 +4,19 @@
  * Declare a variable called myFavoriteNumber on one line; assign it a value on
  * the next line.
  */
+let myFavoriteNumber;
+myFavoriteNumber = 2;
 
 /*
  * Prompt 2:
  *
  * Declare 3 variables using each of let, const, and var.
  */
+
+let letVar = "let";
+const constVar = "const";
+var varVar = "var";
+
 
 /*
  * Prompt 3:
@@ -22,6 +29,13 @@
  *   - calculate the remainder of dividing your variable by 2
  */
 
+let num = 1;
+num = num + 10;
+num= num - 2;
+num = num * 3;
+num = num / 7;
+num = num % 2;
+
 /*
  * Prompt 4:
  *
@@ -33,6 +47,10 @@
  * and lastName variables.
  */
 
+let firstName = "Devon";
+let lastName = "Jones";
+let fullName = firstName + " " + lastName;
+
 /*
  * Prompt 5:
  *
@@ -42,6 +60,10 @@
  * Create a variable called message and use string interpolation to assign it
  * the value 'hello world!'.
  */
+
+let hello = 'hello';
+let world = 'world';
+let message = `${hello} ${world}`
 
 
 /*
@@ -56,19 +78,19 @@ let c = 57;
 let d = 16;
 let e = 'Kevin';
 
-// a _ b;
+a < b;
 
-// c _ d;
+c > d;
 
-// 'Name' ___ 'Name';
+'Name' === 'Name';
 
-// a _ b ___ c;
+a + b === c;
 
-// a _ a ___ d;
+a * a === d;
 
-// e ___ 'Kevin';
+e === 'Kevin';
 
-// 48 ___ '48';
+48 == '48';
 
 /*
  * Prompt 8:
@@ -82,19 +104,19 @@ c = -5;
 d = 3000;
 e = 'Jelly Bean';
 
-// a _ b;
+a > b;
 
-// c _ d;
+c > d;
 
-// 'Peanut' ___ 'Peanut';
+'Peanut' !== 'Peanut';
 
-// a _ b ___ c;
+a + b < c;
 
-// a _ a ___ d;
+a + a > d;
 
-// e ___ 'Jelly Bean';
+e !== 'Jelly Bean';
 
-// 48 ___ '48';
+48 === '48';
 
 /*
  * Prompt 9:
